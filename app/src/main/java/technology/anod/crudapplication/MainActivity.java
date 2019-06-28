@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         Date todayDate = Calendar.getInstance().getTime();
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
         String todayString = formatter.format(todayDate);
+        //hii
 
         Log.d("current dat", todayString);
 
